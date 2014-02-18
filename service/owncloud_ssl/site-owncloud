@@ -8,8 +8,8 @@ server {
         # Path to the root of your installation
         root /var/www/owncloud;
 
-	access_log /var/log/nginx/files.alanb.ca.access.log;
-  	error_log /var/log/nginx/files.alanb.ca.error.log;
+	access_log /var/log/nginx/access.log;
+  	error_log /var/log/nginx/error.log;
 
         client_max_body_size 10G; # set max upload size
         fastcgi_buffers 64 4K;
